@@ -10,13 +10,10 @@ const sequelize  = new Sequelize(process.env.DB_NAME, process.env.DB_USER,proces
         acquire: 30000,
         idle: 10000
     },
-  //Print raw SQL
-  
-  logging: function (str) {    
-    console.log("SQL:" , str);
-  }
+  //Print raw SQL  
+  //logging:  (str) => { console.log("SQL:" , str);}
   //Or not 
-  //logging: false
+  logging: false
 });
 
 sequelize

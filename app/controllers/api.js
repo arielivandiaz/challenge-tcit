@@ -16,10 +16,10 @@ const home = async (req, res) => {
 }
 
 const create = async (req, res) => {
-    try {
+    try {   
         const currentPost = {
-            postName: req.body.name,
-            postContent: req.body.description
+            postName: req.body.postName,
+            postContent: req.body.postContent
         };
 
         const validation = validatePost(currentPost);
@@ -49,11 +49,8 @@ const list = async (req, res) => {
 }
 
 const deleteById = async (req, res) => {
-    try {
-        //const posts = await Posts.findAll();  
-        
+    try {               
         const id = parseInt(req.body.id);       
-
         const postDeleted = await Posts.findOne({
             where: {
                 id
