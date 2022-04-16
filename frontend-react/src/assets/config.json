@@ -1,0 +1,7 @@
+{
+    "BASE_URL" : "http://localhost:4747/",
+    "LIST_URL" : "http://localhost:4747/list",
+    "CREATE_URL" : "http://localhost:4747/create",
+    "DELETE_URL" : "http://localhost:4747/delete"
+
+}
