@@ -3,8 +3,6 @@ var router = express.Router();
 var api = require('../controllers/api');
 
 
-router.get('/', api.home);
-
 router.get('/list', api.list);
 
 router.post('/create', api.create);
