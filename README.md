@@ -23,8 +23,9 @@
 - [Node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework
 - [Postgres] - most Advanced Open Source Relational Database
-- [React] - a JavaScript library for building user interfaces
 - [Sequelize] -  a modern TypeScript and Node.js ORM 
+- [React] - a JavaScript library for building user interfaces
+- [Vite] -   a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 
 ## Contact
@@ -39,6 +40,8 @@
 [Express]: <http://expressjs.com>
 [Postgres]: <https://www.postgresql.org/>
 [Sequelize]: <https://sequelize.org/>
+[Vite]: <https://vitejs.dev/>
+
    
    
 
