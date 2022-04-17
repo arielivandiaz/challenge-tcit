@@ -2,7 +2,7 @@
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">TCIT Challenge</h1>
+<h1 align="center"> TCIT Challenge </h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://www.tcit.cl/" target="_blank">https://www.tcit.cl/</a>.
@@ -16,9 +16,8 @@
   </h3>
 </div>
 
+![screenshot](https://github.com/arielivandiaz/challenge-tcit/blob/master/readme/screenshot.png?raw=true)
 
-
-## Overview
 
 ## Contact
 
