@@ -1,7 +1,7 @@
 {
-    "BASE_URL" : "http://localhost:4747/",
-    "LIST_URL" : "http://localhost:4747/list",
-    "CREATE_URL" : "http://localhost:4747/create",
-    "DELETE_URL" : "http://localhost:4747/delete"
+    "BASE_URL" : "http://93.188.162.212:3017/",
+    "LIST_URL" : "http://93.188.162.212:3017/list",
+    "CREATE_URL" : "http://93.188.162.212:3017/create",
+    "DELETE_URL" : "http://93.188.162.212:3017/delete"
 
 }
