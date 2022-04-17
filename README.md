@@ -17,8 +17,28 @@
 ![screenshot](https://github.com/arielivandiaz/challenge-tcit/blob/master/readme/screenshot.png?raw=true)
 
 
+
+## Tech
+
+- [Node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework
+- [Postgres] - most Advanced Open Source Relational Database
+- [React] - a JavaScript library for building user interfaces
+- [Sequelize] -  a modern TypeScript and Node.js ORM 
+
+
 ## Contact
 
 - Website [Ariel Ivan Diaz](https://arielivandiaz.com/)
 - GitHub [@arielivandiaz](https://github.com/arielivandiaz)
+
+
+
+[React]: <https://reactjs.org/> 
+[Node.js]: <http://nodejs.org>  
+[Express]: <http://expressjs.com>
+[Postgres]: <https://www.postgresql.org/>
+[Sequelize]: <https://sequelize.org/>
+   
+   
 
