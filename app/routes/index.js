@@ -7,7 +7,7 @@ router.get('/list', api.list);
 
 router.post('/create', api.create);
 
-router.post('/delete', api.deleteById);
+router.delete('/delete', api.deleteById);
 
 
 module.exports = router;

@@ -49,7 +49,7 @@ function App() {
     try {
       const response = await fetch(serverUrls.DELETE_URL,
         {
-          method: 'post',
+          method: 'delete',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formBody)
         });
