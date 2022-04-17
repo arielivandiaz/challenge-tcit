@@ -32,7 +32,7 @@ export default function FormCreatePost(props) {
 
     return (
         <div>
-            <form method="post"  onSubmit={sendNewPost}>
+            <form method="post"  onSubmit={sendNewPost} className="col-row new-post-form">
                 <input name="name" type="text" ref={inputName} placeholder="Nombre"
                     onChange={updateName}
                     required

@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
-import './styles/App.css'
 import serverUrls from './assets/config.json';
+
 import Table from './componets/table';
 import FormCreatePost from './componets/createPost';
 import Filter from './componets/filter';
+
+
 
 function App() {
 
@@ -62,15 +64,17 @@ function App() {
 
   return (
     <div className="App">
-      <header className="">
-        <p>Hello Vite + React!</p>
-      </header>
-      <Filter updateFilter={updateFilter} />
+<header>
+  <h2>Post Manager</h2>
+</header>
+      <main>
+      <Filter updateFilter={updateFilter}  />
       <Table
         posts={filter.length ? posts.filter((post) => { return post.postName.toLowerCase().includes(filter.toLowerCase()) }) : posts}
         sendDeletePost={deletePost}
       />
       <FormCreatePost submitPost={submitPost} />
+      </main>
     </div>
   )
 }
